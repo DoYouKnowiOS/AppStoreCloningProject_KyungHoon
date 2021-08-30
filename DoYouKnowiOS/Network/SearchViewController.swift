@@ -12,14 +12,39 @@ import RxCocoa
 
 
 class SearchViewController: UIViewController {
+    
+//    private var handler: ((Result<[SearchViewModel], API.APIError>) -> Void)!
 
-  private let disposeBag = DisposeBag()
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
+        let searchInfo = API.shared
+        
+        searchInfo.getRequest { result in
+            switch result {
+            case .success(let data):
+                print(data)
+                
+            case .failure(let error):
+                print(error)
+            }
+        }
+        
+        
+//        handler = { [weak self] result in
+//            guard self != nil else { return }
+//                    switch result {
+//                    case .success(let SearchViewModel):
+//                        guard SearchViewModel.first != nil else { return }
+//
+//                    case .failure(let error):
+//                        print("Error", error.localizedDescription)
+//                    }
+//
+//        }
+        
 
- 
-      .disposed(by: disposeBag)
-  }
+//closure 공부해오기, 왜 쓰고, 어디서 쓰고 , 어떻게 쓰는지 공부해오기
+    }
 
 }

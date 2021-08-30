@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 let SearchUrl = "https://itunes.apple.com/search"
 

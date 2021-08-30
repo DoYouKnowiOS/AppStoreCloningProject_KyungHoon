@@ -21,8 +21,8 @@
 		649E209F26DB13C000080A00 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E209E26DB13C000080A00 /* HttpMethod.swift */; };
 		649E20A126DB14DB00080A00 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A026DB14DB00080A00 /* APIService.swift */; };
 		649E20A326DB14F700080A00 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A226DB14F700080A00 /* API.swift */; };
-		649E20A526DB9C7700080A00 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A426DB9C7600080A00 /* SearchViewModel.swift */; };
 		649E20A726DBA68200080A00 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A626DBA68200080A00 /* SearchViewController.swift */; };
+		649E20A926DD0D3E00080A00 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A826DD0D3E00080A00 /* SearchViewModel.swift */; };
 		ADEB5DA4F17C078190DE686B /* Pods_DoYouKnowiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 135A18AB6A33A4DAA4FEBAFA /* Pods_DoYouKnowiOS.framework */; };
 		C598D6F066AE18335E5512C6 /* Pods_DoYouKnowiOS_DoYouKnowiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8BBBA58EDCD9877C2A16D9 /* Pods_DoYouKnowiOS_DoYouKnowiOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -68,8 +68,8 @@
 		649E209E26DB13C000080A00 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		649E20A026DB14DB00080A00 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		649E20A226DB14F700080A00 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		649E20A426DB9C7600080A00 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		649E20A626DBA68200080A00 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		649E20A826DD0D3E00080A00 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		7CD4A494C9F466DF74536320 /* Pods-DoYouKnowiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYouKnowiOS.release.xcconfig"; path = "Target Support Files/Pods-DoYouKnowiOS/Pods-DoYouKnowiOS.release.xcconfig"; sourceTree = "<group>"; };
 		89DA3FC031335931743A6C4D /* Pods-DoYouKnowiOS-DoYouKnowiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYouKnowiOS-DoYouKnowiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoYouKnowiOS-DoYouKnowiOSUITests/Pods-DoYouKnowiOS-DoYouKnowiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EE9EC59573EE20874045A37 /* Pods_DoYouKnowiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoYouKnowiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,13 +186,13 @@
 		649E209926DA720600080A00 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				649E20A426DB9C7600080A00 /* SearchViewModel.swift */,
 				649E20A626DBA68200080A00 /* SearchViewController.swift */,
 				649E209326DA6DFC00080A00 /* SearchModel.swift */,
 				649E209C26DB137500080A00 /* Resourse.swift */,
 				649E209E26DB13C000080A00 /* HttpMethod.swift */,
 				649E20A026DB14DB00080A00 /* APIService.swift */,
 				649E20A226DB14F700080A00 /* API.swift */,
+				649E20A826DD0D3E00080A00 /* SearchViewModel.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -441,8 +441,8 @@
 				647DC16C26D2120A0083CA84 /* AppDelegate.swift in Sources */,
 				649E20A326DB14F700080A00 /* API.swift in Sources */,
 				649E209F26DB13C000080A00 /* HttpMethod.swift in Sources */,
+				649E20A926DD0D3E00080A00 /* SearchViewModel.swift in Sources */,
 				649E20A126DB14DB00080A00 /* APIService.swift in Sources */,
-				649E20A526DB9C7700080A00 /* SearchViewModel.swift in Sources */,
 				647DC16E26D2120A0083CA84 /* SceneDelegate.swift in Sources */,
 				649E209426DA6DFC00080A00 /* SearchModel.swift in Sources */,
 			);

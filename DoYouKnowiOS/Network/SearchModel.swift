@@ -8,10 +8,15 @@
 import Foundation
 
 struct SearchModel: Decodable {
-    let term: String
-    let country : String
-    let media : String
+    let resultCount: Int
+    let results: [SearchInsideModel]
     
+    
+}
+
+struct SearchInsideModel: Decodable {
+    let wrapperType: String
+    let kind: String
 }
 
 struct PostSearchModel: Codable {
