@@ -69,4 +69,6 @@ class API {
             }
         }
         dataTask.resume()
+    
+    }
 }
