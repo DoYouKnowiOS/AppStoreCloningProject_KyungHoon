@@ -30,6 +30,7 @@ class API {
     func getRequest(completionHandler: @escaping (Result<[SearchModel], APIError>) -> Void) {
         guard let url = URL(string: "\(SearchUrl)?term=kakao&country=kr&media=software") else {
             completionHandler(.failure(.urlNotSupport))
+            
             return
         }
         let config = URLSessionConfiguration.default
@@ -37,7 +38,8 @@ class API {
 
         let dataTask = session.dataTask(with: url) { (data, response, error) in
             
-            guard error == nil else { completionHandler(.failure(.urlNotSupport))
+            guard error == nil else { completionHandler(.failure(.urlNotSupport)
+            )
                 return }
             
             guard let statusCode = (response as? HTTPURLResponse)?.statusCode else
@@ -67,29 +69,4 @@ class API {
             }
         }
         dataTask.resume()
-        
-        
-        
-        
-//        let resource = Resource<[SearchModel]>(url: url)
-//        URLSession.load(resource: String) { SearchViewController, _ in
-//            guard let data = SearchViewModel, !data.isEmpty else {
-//                completionHandler(.failure(.noData))
-//                return
-//            }
-//            completionHandler(.success(data))
-//        }
-    }
-    
-//    func get2(completionHandler: @escaping (Result<[SearchModel], APIError>) -> Void) {
-//        let resource = Resource<[SearchModel]>(url: "\(Config.baseURL)/posts", parameters: ["userId": "1"])
-//        defaultSession.load(resource) { userDatas, _ in
-//            guard let data = userDatas, !data.isEmpty else {
-//                completionHandler(.failure(.noData))
-//                return
-//            }
-//            completionHandler(.success(data))
-//        }
-//    }
-    
 }

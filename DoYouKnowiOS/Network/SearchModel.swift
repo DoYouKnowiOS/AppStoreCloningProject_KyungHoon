@@ -10,11 +10,10 @@ import Foundation
 struct SearchModel: Decodable {
     let resultCount: Int
     let results: [SearchInsideModel]
-    
-    
 }
 
 struct SearchInsideModel: Decodable {
+    let trackCensoredName: String
     let wrapperType: String
     let kind: String
 }
