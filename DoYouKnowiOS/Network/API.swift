@@ -7,6 +7,8 @@
 
 import Foundation
 
+let SearchUrl = "https://itunes.apple.com/search"
+
 class API {
     enum APIError: LocalizedError {
         case urlNotSupport

@@ -14,12 +14,7 @@
 		647DC17326D2120A0083CA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647DC17126D2120A0083CA84 /* Main.storyboard */; };
 		647DC17526D2120C0083CA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647DC17426D2120C0083CA84 /* Assets.xcassets */; };
 		647DC17826D2120C0083CA84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647DC17626D2120C0083CA84 /* LaunchScreen.storyboard */; };
-		647DC18326D2120D0083CA84 /* DoYouKnowiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DC18226D2120D0083CA84 /* DoYouKnowiOSTests.swift */; };
-		647DC18E26D2120D0083CA84 /* DoYouKnowiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647DC18D26D2120D0083CA84 /* DoYouKnowiOSUITests.swift */; };
 		649E209426DA6DFC00080A00 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E209326DA6DFC00080A00 /* SearchModel.swift */; };
-		649E209D26DB137500080A00 /* Resourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E209C26DB137500080A00 /* Resourse.swift */; };
-		649E209F26DB13C000080A00 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E209E26DB13C000080A00 /* HttpMethod.swift */; };
-		649E20A126DB14DB00080A00 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A026DB14DB00080A00 /* APIService.swift */; };
 		649E20A326DB14F700080A00 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A226DB14F700080A00 /* API.swift */; };
 		649E20A726DBA68200080A00 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A626DBA68200080A00 /* SearchViewController.swift */; };
 		649E20A926DD0D3E00080A00 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E20A826DD0D3E00080A00 /* SearchViewModel.swift */; };
@@ -58,15 +53,8 @@
 		647DC17726D2120C0083CA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647DC17926D2120C0083CA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647DC17E26D2120D0083CA84 /* DoYouKnowiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoYouKnowiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		647DC18226D2120D0083CA84 /* DoYouKnowiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouKnowiOSTests.swift; sourceTree = "<group>"; };
-		647DC18426D2120D0083CA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647DC18926D2120D0083CA84 /* DoYouKnowiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoYouKnowiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		647DC18D26D2120D0083CA84 /* DoYouKnowiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouKnowiOSUITests.swift; sourceTree = "<group>"; };
-		647DC18F26D2120D0083CA84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649E209326DA6DFC00080A00 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
-		649E209C26DB137500080A00 /* Resourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resourse.swift; sourceTree = "<group>"; };
-		649E209E26DB13C000080A00 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
-		649E20A026DB14DB00080A00 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		649E20A226DB14F700080A00 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		649E20A626DBA68200080A00 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		649E20A826DD0D3E00080A00 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
@@ -132,8 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				647DC16A26D2120A0083CA84 /* DoYouKnowiOS */,
-				647DC18126D2120D0083CA84 /* DoYouKnowiOSTests */,
-				647DC18C26D2120D0083CA84 /* DoYouKnowiOSUITests */,
 				647DC16926D2120A0083CA84 /* Products */,
 				25BF958E358AB59FC03662D2 /* Pods */,
 				3D0BF52E4DBC4FFCA77AFCED /* Frameworks */,
@@ -165,32 +151,11 @@
 			path = DoYouKnowiOS;
 			sourceTree = "<group>";
 		};
-		647DC18126D2120D0083CA84 /* DoYouKnowiOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				647DC18226D2120D0083CA84 /* DoYouKnowiOSTests.swift */,
-				647DC18426D2120D0083CA84 /* Info.plist */,
-			);
-			path = DoYouKnowiOSTests;
-			sourceTree = "<group>";
-		};
-		647DC18C26D2120D0083CA84 /* DoYouKnowiOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				647DC18D26D2120D0083CA84 /* DoYouKnowiOSUITests.swift */,
-				647DC18F26D2120D0083CA84 /* Info.plist */,
-			);
-			path = DoYouKnowiOSUITests;
-			sourceTree = "<group>";
-		};
 		649E209926DA720600080A00 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				649E20A626DBA68200080A00 /* SearchViewController.swift */,
 				649E209326DA6DFC00080A00 /* SearchModel.swift */,
-				649E209C26DB137500080A00 /* Resourse.swift */,
-				649E209E26DB13C000080A00 /* HttpMethod.swift */,
-				649E20A026DB14DB00080A00 /* APIService.swift */,
 				649E20A226DB14F700080A00 /* API.swift */,
 				649E20A826DD0D3E00080A00 /* SearchViewModel.swift */,
 			);
@@ -437,12 +402,9 @@
 			files = (
 				647DC17026D2120A0083CA84 /* ViewController.swift in Sources */,
 				649E20A726DBA68200080A00 /* SearchViewController.swift in Sources */,
-				649E209D26DB137500080A00 /* Resourse.swift in Sources */,
 				647DC16C26D2120A0083CA84 /* AppDelegate.swift in Sources */,
 				649E20A326DB14F700080A00 /* API.swift in Sources */,
-				649E209F26DB13C000080A00 /* HttpMethod.swift in Sources */,
 				649E20A926DD0D3E00080A00 /* SearchViewModel.swift in Sources */,
-				649E20A126DB14DB00080A00 /* APIService.swift in Sources */,
 				647DC16E26D2120A0083CA84 /* SceneDelegate.swift in Sources */,
 				649E209426DA6DFC00080A00 /* SearchModel.swift in Sources */,
 			);
@@ -452,7 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647DC18326D2120D0083CA84 /* DoYouKnowiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647DC18E26D2120D0083CA84 /* DoYouKnowiOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
